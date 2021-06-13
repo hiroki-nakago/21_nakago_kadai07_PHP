@@ -41,7 +41,7 @@ while(!feof($fp)){
     $datas=explode(",",$txt); //テキストファイルの情報を配列へ変換
     $array[]=array($datas);
 
-    var_dump($datas[0]);
+    // var_dump($datas[0]);
     // echo $txt."<br>";
     // echo "<br>";
     // echo $str[1]."<br>";
@@ -58,7 +58,6 @@ while(!feof($fp)){
 
 fclose($fp);
 ?>
-<button>数数える</button>
 
 
 
