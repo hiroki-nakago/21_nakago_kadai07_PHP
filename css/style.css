@@ -1,0 +1,127 @@
+/* ここから下に記載していく */
+@charset "utf-@8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #333333;
+    font-size: 1.6rem;
+    line-height: 1.75;   
+    max-width: 1440px; 
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text1{
+    margin: 0 0 60px;
+}
+
+.contact-text2{
+    margin: 0 0 30px;
+}
+
+.contact-text3{
+    margin: 0 0 70px;
+}
+
+.form-wrap{
+    width: 720px;
+    margin: auto;       
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 0.5PX;   
+    border-bottom: solid 0.5px;
+}
+
+.form-title{
+    width: 232px;
+    height: auto;
+    text-align: left;
+    padding: 8px 0 0 8PX; 
+    border-right:solid 0.5px;
+    border-bottom: solid 0.5px;
+}
+.form-title2{
+    width: 232px;
+    height: auto;
+    text-align: left;
+    padding: 8px 0 0 8PX; 
+    border-right:solid 0.5px;
+}
+.form-title.no-padding{
+    padding: 0 0 0 8px;
+}
+.under-line{
+    width: 479px;
+    border-bottom: solid 0.5px;
+}
+.form-item{
+    width: 400px;
+    margin:0 0 0  8px;
+    text-align: left;
+}
+.form-item.form-radio{
+    width: 480px;
+}
+
+.form-radio{
+    display: flex;
+    flex-direction:column;
+}
+
+.form-parts{
+    box-sizing:border-box;
+    width: 100%;
+    font-size: 1.6rem;
+    border:solid 0.5px #bfbfbf;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.btn-submit{
+    border: none;
+    padding:0;
+}
+
+/* footer */
+.footer{
+    background-color: #707070;
+    padding: 30px 0;
+}
+.copyrights{
+    color: white;
+}
+
+/* table */
+#myTable .tablesorter-header {
+	cursor: pointer;
+	outline: none;
+}
+#myTable .tablesorter-header-inner::after { 
+	content: '▼';
+	font-size: 12px;
+	margin-left: 5px;
+}
